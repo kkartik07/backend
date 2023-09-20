@@ -29,7 +29,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 const server = app.listen(process.env.PORT, () => {
-  console.log(`Server is working on https://shop-easy.onrender.com/:${process.env.PORT}`);
+  console.log(`Server is working on http:127.0.0.1:${process.env.PORT}`);
 });
 
 // Unhandled Promise Rejection
